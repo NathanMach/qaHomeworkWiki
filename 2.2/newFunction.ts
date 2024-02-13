@@ -18,16 +18,16 @@ EN: Add your own function starting on line 20
 */
 
 export function blockBuster(movie: string): string {
-    if () {
-        return ""; 
-    } else if (movie == "") {
-        return "";
-    } else if (movie == "") {
-        return ""; 
-    } else if (movie == "") {
-        return ""; 
-    } else if (movie == "") {
-        return ''; 
+    if (movie == "movieOne") {
+        return "Pacific Rim"; 
+    } else if (movie == "movieTwo") {
+        return "Shrek";
+    } else if (movie == "movieThree") {
+        return "Super Troopers"; 
+    } else if (movie == "movieFour") {
+        return "Deadpool"; 
+    } else if (movie == "movieFive") {
+        return "Mandolorian"; 
     } else {
         return `I'm sorry we do not carry ${movie}`; 
     }
